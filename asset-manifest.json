@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Chirayu/static/css/main.2e652635.css",
+    "main.js": "/Chirayu/static/js/main.97d49962.js",
+    "static/media/home.png": "/Chirayu/static/media/home.a37c326ed9d47fd7e8f9.png",
+    "static/media/6862329.jpg": "/Chirayu/static/media/6862329.1b3452b45d1672c5499e.jpg",
+    "static/media/me.jpeg": "/Chirayu/static/media/me.7fed25b2400d36261a2a.jpeg",
+    "static/media/brain.webp": "/Chirayu/static/media/brain.39df2658c725b361c4ff.webp",
+    "static/media/kannada.jpeg": "/Chirayu/static/media/kannada.2d11b91d4701f8d1464e.jpeg",
+    "index.html": "/Chirayu/index.html",
+    "main.2e652635.css.map": "/Chirayu/static/css/main.2e652635.css.map",
+    "main.97d49962.js.map": "/Chirayu/static/js/main.97d49962.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e652635.css",
+    "static/js/main.97d49962.js"
+  ]
+}
