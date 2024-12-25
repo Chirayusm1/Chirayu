@@ -1,0 +1,60 @@
+/* Contact Section Styling */
+#contact {
+  background-color: #cdd3d8; /* Light background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-items {
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Increased gap between items */
+}
+
+.contact-item {
+  background: #ffffff;
+  padding: 20px;
+  width: 300px; /* Increased width for buttons */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.contact-item h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.contact-item p {
+  font-size: 14px;
+  color: #555;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .contact-item {
+    width: 100%; /* Full width on smaller screens */
+  }
+}

@@ -1,0 +1,58 @@
+/* Reset styles for the header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  margin: 0; /* Ensure no extra margin */
+  padding: 0; /* Ensure no extra padding */
+  height: 20px; /* Explicitly set the height */
+}
+
+/* Adjust for scrolled state */
+.header.scrolled {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+/* Styling for the navbar content */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%; /* Match parent height */
+  padding: 0 20px; /* Horizontal padding */
+}
+
+/* Brand/logo styling */
+.brand h1 {
+  font-size: 16px; /* Adjust font size */
+  margin: 0; /* Remove extra margin */
+  line-height: 50px; /* Align text vertically */
+}
+
+/* Navbar links styling */
+.nav-list ul {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 50px; /* Vertically align links */
+  padding: 0 10px; /* Reduce padding for clickable area */
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #ffcc00;
+}

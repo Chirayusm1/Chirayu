@@ -1,0 +1,44 @@
+/* Global Styles */
+body {
+  background-image: url('D:/react/portfolio1/src/assets/images/6862329.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  /* This keeps the background fixed */
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+#header {
+  background: #0056b3;
+  color: white;
+  padding: 0rem 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+footer {
+  background: #333;
+  color: white;
+}
